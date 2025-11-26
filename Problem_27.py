@@ -6,8 +6,6 @@ def fibo(n):
     else:
         return fibo(n-1) + fibo(n-2)
 terms=int(input("Enter the no.of term:"))
-n1,n2=0,1
-count=0
 if terms<0:
     print("Enter valid term")
 else:

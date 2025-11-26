@@ -7,7 +7,7 @@ def transpseMatrix(m):
         for j in range(cols):
             tm[j][i]=m[i][j]
     return tm
-matrix=[
+matrix=[ 
     [1,2,6],
     [3,4,4]
 ]

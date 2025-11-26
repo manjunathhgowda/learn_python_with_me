@@ -2,15 +2,12 @@
 
 def charCount(s):
     dict={}
-    duplicates=[]
     for i in s:
         if i in dict:
             dict[i]+=1
         else:
             dict[i]=1
-    for key,value in dict.items():
-        if value>1:
-            duplicates.append(key)
+    duplicates=[key for key,value in dict.items() if value>1]
     return duplicates
 
 str1="Good Morning Everyone"

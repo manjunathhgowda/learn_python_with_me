@@ -20,8 +20,7 @@ def multiply_matrices(m1,m2):
 matrix1=[
     [11,12],
     [14,15],
-    [17,18]
-
+    [8,9]
 ]
 
 matrix2=[
